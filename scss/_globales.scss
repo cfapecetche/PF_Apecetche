@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $fuente-principal;
+}
+
+h1{  
+    text-align: left;
+    margin-left: $espacio-chico;
+    animation-duration: 3s;
+    animation-name: aparecer;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes aparecer {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+ }
+
+img {
+    max-width: 100%;
+}
+
+.cabecera {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: $color-fondo;
+    opacity: .9;
+    width: 100%;
+    } 
+
+.cabecera img {
+	padding: $espacio-Xchico;
+    width: $espacio-Xgrande;
+}
+
+
+a {
+    text-decoration: none;
+    color: $color-letra;
+	
+}
+
+.nav-link,
+.navbar-nav .nav-link.active {
+    color: $color-primario;
+
+    &:hover {
+        color: $color-terciario;
+    }
+   
+}
+
+
+.fondo { 
+
+    background-image: url("../image/texture-7515225_1280.jpg") ;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: $espacio-Xchico $espacio-Xchico;
+	margin-bottom: $espacio-Xchico;
+
+}
+
+
+.vs {
+	margin-top: $espacio-Xchico;
+    @include flex-fila-centrado;
+    flex-wrap: wrap;
+	gap: $espacio-Xchico;
+    
+}
+
+
+#nosotros:hover {
+    transform: scale(0.90);
+}
+
+
+.p_blanco {
+	color: $color-fondo;
+   }
+
+.iconify {
+    font-size: 3rem; 
+}
+
+.pie {
+    gap: 20px;
+}
+
+
+
+
+
+
+
+

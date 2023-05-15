@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!-- Descripción -->
+     <meta name="description" content="Bienvenidos al sitio de basura diferenciada, en esta seccion encontraras lo necesario para ver cual es tu recorrido de recoleccion de residuos diferenciados en tu zona.">
+
+     <!-- Palabras clave -->
+     <meta name="keywords" content="recorrido, ambiente, ambiental recoleccion, zona sur, diferenciada, reciclado, basura">
+      
+ 
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;500;600;700&display=swap"
+		rel="stylesheet">
+    
+     <!--Agrego el link al CSS de Bootstrap-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+          
+    <!-- linkear nuestro css -->
+	<link rel="stylesheet" href="../css/styles.css">
+    <!--Agrego el favicon-->
+    <link rel="icon" type="image/x-icon" href="../image/logo_cooperativa-modified.JPG">
+    
+    <title>Recorrido - Busura Diferenciada</title>
+    
+</head>
+   
+<body>
+
+<!-- </header> -->
+
+<header id="arriba" class="cabecera">
+
+    <!--Menu de navegacion hamburguesa Bootstrap-->
+      <nav class="navbar navbar-expand-lg">
+          <div class="container-fluid">
+
+                        
+            <a class="navbar-brand" href="../index.html">
+              <!--logo-->
+              <img src="../image/logo_cooperativa-modified.JPG" alt="logo cooperativa"></a>
+
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="como_reciclar.html">Reciclando</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="recorrido.html">Recorrido</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+  </header>
+
+<main>
+
+  <h1>Recorrido-Basura diferenciada</h1>   
+<section  class="fondo">
+
+  <!--Pongo los input radio que no se van a ver pero se usan para el filtro-->
+
+      <div class="filtro">
+        <input type="radio" name="seleccionado" id="jm" cheched>
+        <input type="radio" name="seleccionado" id="adr">
+        <input type="radio" name="seleccionado" id="br">
+        <input type="radio" name="seleccionado" id="lng">
+        <input type="radio" name="seleccionado" id="glw">
+        <input type="radio" name="seleccionado" id="rcz">
+        <input type="radio" name="seleccionado" id="cla">
+
+
+      <div class="container-opciones">
+      
+  <!--Pongo los labels para el filtro-->
+
+          <label for="jm">Jose Marmol</label>
+          <label for="adr">Adrogue</label>
+          <label for="br">Burzaco</label>
+          <label for="lng">Longchamps</label>
+          <label for="glw">Glew</label>
+          <label for="rcz">Rafael Calzada</label>
+          <label for="cla">Claypole</label>
+     
+
+
+        
+          </div>
+
+          
+
+        <div class="container-cards">
+            <!-- Cards de  Recorridos -->
+            <div class="col card h-100 card-jm">
+                <img src="../image/recorrido_jm.JPG" class="card-img-top" alt="Imagen recorrido Jose Marmol">
+                <div class="card-body">
+                    <h5 class="card-title">Recorrido - José Mármol</h5>
+                    <p class="card-text">Bernardi - Pérez - F. Varela - Arroyito - (Alte. Brown) - E. Echeverría - Canale - Dorrego</p>
+                    
+                </div>
+            </div>
+            
+            <div class="col card h-100 card-adr" >
+                <img src="../image/recorrido_adr.JPG" class="card-img-top" alt="Imagen recorrido Adrogue">
+                <div class="card-body">
+                    <h5 class="card-title">Recorrido - Adrogue</h5>
+                    <p class="card-text">Canale- Robinson - La Rosa - Bernardi - Frias - Bynnon - Lasserre - Echeverria - Escalada</p>
+                </div>
+            </div>
+
+            <div class="col card h-100 card-br">
+                <img src="../image/recorrido_br.JPG" class="card-img-top" alt="Imagen recorrido Burzaco">
+                <div class="card-body">
+                    <h5 class="card-title">Recorrido - Burzaco</h5>
+                    <p class="card-text">Azopardo - French - González - República Argentina - Juan B. Justo - Santa Fe - Pringles </p>
+                </div>
+            </div>
+
+            <div class="col card h-100 card-lng">
+                <img src="../image/recorrido_lng.JPG" class="card-img-top" alt="Imagen recorrido Longchamps">
+                <div class="card-body">
+                    <h5 class="card-title">Recorido - Longchamps</h5>
+                    <p class="card-text">Intendente Brunel - Doctor Kellertas - Avenida Hipólito Yrigoyen - Sarmiento - Uspallata - Jorge Newbery</p>
+               </div>
+            </div>
+
+            <div class="col card h-100 card-glw" >
+                <img src="../image/recorrido_glw.JPG" class="card-img-top" alt="Imagen recorrido Glew">
+                <div class="card-body">
+                    <h5 class="card-title">Recorrido - Glew</h5>
+                    <p class="card-text">Calderon - M. Cane - Gobernador Arias - A. Lamberti -  Capitan Almandos Almonacid - Avenida Almafuerte,</p>
+                </div>
+            </div>
+
+            <div class="col card h-100 card-rcz" >
+                <img src="../image/recorrido_rcz.JPG" class="card-img-top" alt="Imagen recorrido Rafael Calzada">
+                <div class="card-body">
+                    <h5 class="card-title">Recorrido - Rafael Calzada</h5>
+                    <p class="card-text"> Italia - Cervantes Saavedra - Angonelli - Avenida San Martin - Drumond - Rev. Padre Masramon - Plaza Brown</p>
+                </div>
+            </div>
+
+            <div class="col card h-100 card-cla" >
+              <img src="../image/recorrido_cla.JPG" class="card-img-top" alt="Imagen recorrido Claypole">
+              <div class="card-body">
+                  <h5 class="card-title">Recorrido - Claypole</h5>
+                  <p class="card-text">Sempere - Sargento Cabral - Dean Funes - Aristobulo del Valle - Liniers - A. Alcorta - Aristobulo del Valle</p>
+          
+              </div>
+          </div>
+        </div>
+    
+
+
+</main>
+
+
+
+<footer class="mt-5">
+    
+
+  <div class="d-flex justify-content-center pie">
+   
+  <!--Enlace interno-->
+    <a href="#arriba">
+      <span class="iconify" data-icon="mdi:arrow-expand-up"></span>
+    </a>
+    <!--Enlace fb-->
+    <a href="https://www.facebook.com/profile.php?id=100079611353120" target="_blank">
+      <span class="iconify" data-icon="mdi:facebook"></span>
+    </a>
+    
+     <!--Enlace ig-->
+    <a href="https://www.instagram.com/explore/tags/poloreciclador/" target="_blank">
+        <span class="iconify" data-icon="mdi:instagram"></span>
+    </a>
+    <!--Enlace WS-->
+    <a href="https://wa.me/54900000" target="_blank">
+      <span class="iconify" data-icon="mdi:whatsapp"></span>
+    </a>
+
+  </div>
+
+    <div class="d-flex justify-content-center">
+    
+    <p>&copy 2023 Apecetche </p>
+
+    </div>
+
+  
+</footer>
+
+<!-- script iconify -->
+<script src="https://code.iconify.design/3/3.1.0/iconify.min.js"></script>
+
+
+<!--Agrego el link al script de Bootstrap-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
