@@ -152,7 +152,7 @@ iframe {
 }
 
 .card img {
-  height: 55vh;
+  height: 30vh;
 }
 
 .contacto {
@@ -171,7 +171,7 @@ iframe {
 }
 
 .carousel-item img {
-  height: 50vh;
+  height: 40vh;
 }
 
 @media (min-width: 768px) {
@@ -182,6 +182,9 @@ iframe {
   #iframe1 {
     width: 40rem;
     height: 25rem;
+  }
+  .card img {
+    height: 40vh;
   }
 }
 @media (min-width: 992px) {
@@ -200,6 +203,9 @@ iframe {
     gap: 20px;
     padding: auto;
   }
+  .card img {
+    height: 45vh;
+  }
 }
 @media (min-width: 1200px) {
   .carousel-item img {
@@ -210,6 +216,9 @@ iframe {
   #iframe1 {
     width: 70rem;
     height: 28rem;
+  }
+  .card img {
+    height: 50vh;
   }
 }
 @media (min-width: 1500px) {

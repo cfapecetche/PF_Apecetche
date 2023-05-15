@@ -8,6 +8,11 @@
         width: 40rem;
         height: 25rem;
     }
+
+    .card img {
+        height: 40vh;
+       
+    }
 }
 @media (min-width: $desktop) {
     .carousel-item img {
@@ -28,6 +33,11 @@
      
      
     }
+
+    .card img {
+        height: 45vh;
+       
+    }
     
 
 }
@@ -42,6 +52,11 @@
     #iframe1{ 
         width: 70rem;
         height: 28rem;
+    }
+
+    .card img {
+        height: 50vh;
+       
     }
 
     
