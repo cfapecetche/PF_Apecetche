@@ -152,7 +152,7 @@ iframe {
 }
 
 .card img {
-  height: 65vh;
+  height: 55vh;
 }
 
 .contacto {
@@ -171,7 +171,7 @@ iframe {
 }
 
 .carousel-item img {
-  height: 60vh;
+  height: 50vh;
 }
 
 @media (min-width: 768px) {
